@@ -1,2 +1,2 @@
 # Да
-[![Demo CountPages alpha](https://media.discordapp.net/attachments/679421111670407169/819636505902317598/DKke.gif)](https://i.gifer.com/DKke.gif)
+[![Demo CountPages alpha](https://i.gifer.com/origin/60/6041b3c856b276f087f6423259333a27.gif)](https://i.gifer.com/DKke.gif)
