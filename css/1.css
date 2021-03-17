@@ -78,7 +78,7 @@ body, .wb_sbg { min-width: 1200px; min-height: 2885px; }
 #wb_element_instance30 > .wb_shp:before { background: transparent none repeat scroll center center; background-size: cover; opacity: 1; }
 #wb_element_instance31 { top: 40px; left: 0; right: 0; min-height: 430px; height: 430px; display: block; z-index: 317; }
 #wb_element_instance31 > .wb_shp { display: block; background-color: transparent; border: 5px solid #ffffff; border-radius: 0px 0px 0px 0px; -moz-border-radius: 0px 0px 0px 0px; -webkit-border-radius: 0px 0px 0px 0px; width: 100%; height: 430px; }
-#wb_element_instance31 > .wb_shp:before { background: transparent url("../images/d56786ea8089acaf831d9c1c0ee22dc7.jpg") repeat scroll center bottom; background-size: contain; opacity: 1; }
+#wb_element_instance31 > .wb_shp:before { background: transparent url("https://sun9-30.userapi.com/impf/asRljJ89PfyYj-rtVgb1jh_KVPrxffvSagLyIw/DXhWCLYd8ds.jpg?size=1600x1174&quality=96&sign=d3fd4c6acac8492270092523092e2a2d&type=album") no-repeat scroll center bottom; background-size: contain; opacity: 1; }
 #wb_header_bg { background: transparent none repeat-x scroll center top; background-size: auto auto; background-attachment: scroll; height: 60px; }
 #wb_main { padding-top: 60px; }
 #wb_main .wb_cont_outer { top: 60px; }
@@ -148,3 +148,21 @@ body, .wb_sbg { min-width: 1200px; min-height: 2885px; }
 
 @media (max-width: 767px) {
 }
+.llogo {position: absolute;
+width: 300px;
+height: 100px;
+left: 2.4%;
+top: 45%;
+background-color: rgba(0, 255, 255, 0);font-size: 45px;font-weight: 900;color: white; margin-left: auto;
+    margin-right: auto;
+    width: 9em;text-align: center;}
+.rlogo {position: absolute;
+width: 300px;
+height: 100px;
+right: 2.4%;
+top: 45%;
+margin-top:auto;
+margin-bottom: auto;
+background-color: rgba(0, 255, 255, 0);font-size: 45px;font-weight: 900;color: white; margin-left: auto;
+    margin-right: auto;
+    width: 9em;text-align: center;}
