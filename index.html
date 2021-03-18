@@ -37,7 +37,9 @@
 	</head>
 
 
-<body class="site  "><div class="root"><div id="wb_bgs_cont"><div id="wb_page_1_bg"></div></div><div id="wb_header_bg"></div><div id="wb_sbg_placeholder"></div><div class="vbox wb_container wb_header_fixed" id="wb_header">
+<body class="site  "><div class="preloader">
+  <div class="preloader__image"></div>
+</div><div class="root"><div id="wb_bgs_cont"><div id="wb_page_1_bg"></div></div><div id="wb_header_bg"></div><div id="wb_sbg_placeholder"></div><div class="vbox wb_container wb_header_fixed" id="wb_header">
 	
 <div class="wb_cont_inner"><div id="wb_element_instance0" class="wb_element wb-menu" data-plugin="Menu"><ul class="hmenu menu-landing" dir="ltr"><li class="active"><a data-landing="true" href="#school-%E2%84%9616" target="_self">School №16</a></li><li><a href="https://www.google.com/maps/d/u/0/viewer?ll=54.94289128274454%2C43.32017975312689&z=18&mid=1XtwlkXEx-kORqLke8K1XVMGBDqRt1oWP" target="_blank">My Map</a></li></ul><div class="clearfix"></div></div></div><div class="wb_cont_outer"></div><div class="wb_cont_bg"></div></div>
 <div class="vbox wb_container" id="wb_main">
@@ -93,4 +95,12 @@
 			});
 			</script></div></div><div class="wb_cont_outer"></div><div class="wb_cont_bg"></div></div><div class="wb_sbg"></div></div>
 
-</body></html>
+<script>
+    window.onload = function () {
+      document.body.classList.add('loaded_hiding');
+      window.setTimeout(function () {
+        document.body.classList.add('loaded');
+        document.body.classList.remove('loaded_hiding');
+      }, 500);
+    }
+  </script></body></html>
