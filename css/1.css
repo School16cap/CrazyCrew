@@ -66,12 +66,12 @@ body, .wb_sbg { min-width: 1200px; min-height: 2885px; }
 #wb_element_instance24 > .wb_shp { display: block; background-color: #ffffff; border: 1px solid #000000; border-radius: 43px 43px 43px 43px; -moz-border-radius: 43px 43px 43px 43px; -webkit-border-radius: 43px 43px 43px 43px; width: 440px; height: 190px; }
 #wb_element_instance24 > .wb_shp:before { background: transparent url("../images/06550f41cf12b7b2628c13ed19ca6d80.png") repeat scroll center center; background-size: cover; opacity: 1; }
 #wb_element_instance25 { top: 1937px; left: 190px; min-width: 850px; width: 850px; min-height: 36px; height: 36px; display: block; z-index: 85; }
-#wb_element_instance26 { top: 1350px; left: 65px; min-width: 575px; width: 575px; min-height: 270px; height: 270px; display: block; z-index: 356; }
-#wb_element_instance26 img { width: 575px; height: 270px; display: block; position: static; left: 0px; top: 0px; }
+#wb_element_instance26 { top: 1350px; left: 65px; min-width: 55px; width: 575px; min-height: 270px; height: 270px; display: block; z-index: 356; }
+#wb_element_instance26 img { width: 400px; height: 270px; display: block; position: absolute; left: 50px; top: 0px;border-radius: 10px }
 #wb_element_instance27 { top: 1350px; left: 715px; min-width: 385px; width: 385px; min-height: 267px; height: 267px; display: block; z-index: 358; }
-#wb_element_instance27 img { width: 385px; height: 267px; display: block; position: static; left: 0px; top: 0px; }
-#wb_element_instance28 { top: 1657px; left: 66px; min-width: 410px; width: 410px; min-height: 268px; height: 268px; display: block; z-index: 359; }
-#wb_element_instance28 img { width: 410px; height: 268px; display: block; position: static; left: 0px; top: 0px; }
+#wb_element_instance27 img { width: 395px; height: 267px; display: block; position: absolute; ri: 100px; top: 0px; }
+#wb_element_instance28 { top: 1657px; left: 107px; min-width: 410px; width: 410px; min-height: 268px; height: 268px; display: block; z-index: 359; }
+#wb_element_instance28 img { width: 410px; height: 268px; display: block; position: absolute; left: 0px; top: 0px; }
 #wb_element_instance29 { top: 2030px; left: 320px; min-width: 640px; width: 640px; min-height: 480px; height: 480px; display: block; z-index: 360; }
 #wb_element_instance30 { top: 910px; left: 0; right: 0; min-height: 340px; height: 340px; display: block; z-index: 70; }
 #wb_element_instance30 > .wb_shp { display: block; background-color: rgba(252, 252, 252 / 0% ); border: 1px none #000000; border-radius: 0px 0px 0px 0px; -moz-border-radius: 0px 0px 0px 0px; -webkit-border-radius: 0px 0px 0px 0px; width: 100%; height: 340px; }
@@ -150,19 +150,55 @@ body, .wb_sbg { min-width: 1200px; min-height: 2885px; }
 }
 .llogo {position: absolute;
 width: 300px;
-height: 100px;
-left: 2.4%;
-top: 45%;
-background-color: rgba(0, 255, 255, 0);font-size: 45px;font-weight: 900;color: white; margin-left: auto;
+height: 300px;
+left: -1%;
+top: 20px;
+background-color: rgba(0, 255, 255, 0);font-size: 80px;font-weight: 10;color: #acacff;; margin-left: auto;
     margin-right: auto;
-    width: 9em;text-align: center;}
+    width: 9em;text-align: center;font-family: fantasy}
 .rlogo {position: absolute;
 width: 300px;
 height: 100px;
-right: 2.4%;
-top: 45%;
+right: 100px;
+top: 10%;
 margin-top:auto;
 margin-bottom: auto;
-background-color: rgba(0, 255, 255, 0);font-size: 45px;font-weight: 900;color: white; margin-left: auto;
+background-color: rgba(0, 255, 255, 0);font-size: 45px;font-weight: 100;color: white; margin-left: auto;
     margin-right: auto;
-    width: 9em;text-align: center;}
+    width: 9em;text-align: center;color: #ffd77c}
+.DCL {
+background: url(https://sun9-19.userapi.com/impf/JSJ3nmDdaTW2Om-JF-OKnSfYRwNZGlognGi0Ew/d_hX7jITEmI.jpg?size=600x450&quality=96&sign=5beb58a7d5414b3abcc47fde91bfb0ce&type=album);    
+background-size: 100%;
+position: absolute;
+top: 1655px;
+    left: 710px;
+    min-width: 385px;
+    width: 390px;
+    min-height: 267px;
+    height: 267px;
+    display: block;
+    z-index: 358;
+border-radius: 10px
+}
+.wb-stl-normal{font-size: 20px;font-weight: 1000px;}
+.wb-stl-heading2{color:#acacff;}
+.iconcs {position: absolute;
+top:970px;
+left: 18.5%;
+width: 200px;
+height:200px;
+z-index: 500;
+background: url(https://media.discordapp.net/attachments/688332382062903315/823811107361259590/-1.png?width=766&height=574);
+background-size: 150%
+}
+.wb-stl-heading3{font-size: 13px!important;}
+.llogotwo {position: absolute;
+width: 300px;
+height: 300px;
+left: 9%;
+top: 200px;
+background-color: rgba(0, 255, 255, 0);font-size: 40px;font-weight: 100;color: white; margin-left: auto;
+    margin-right: auto;
+    width: 9em;text-align:right;font-family: ;}
+.ffg{font-size: 20px;color: #ffd77c}
+.ffg2{font-family: fantasy;color: #ffd77c}

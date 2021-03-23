@@ -307,7 +307,7 @@ body[data-landing-page] #wb_main .wb_page { display: none; }
 	position: absolute;
 	left: 0;
 	top: 0;
-	width: 100%;
+	width: 90%;
 	height: 100%;
 	overflow: hidden;
 }
